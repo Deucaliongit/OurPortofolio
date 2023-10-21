@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { getLink } from "../utils/Index";
 import bg1 from "../assets/img/Bg1.jpg";
 import { TypeAnimation } from "react-type-animation";
 import {
@@ -22,7 +23,7 @@ const Main = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Junior Developer",
+                "Junior Front-end Dev",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Ui Designer",
                 1000,
@@ -40,10 +41,33 @@ const Main = () => {
             />
           </h2>
           <div className="w-full flex justify-between max-w-[200px] pt-6">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebookF className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+            <a href={getLink.fb} target="_blank" rel="noopener noreferrer">
+              <FaFacebookF
+                className="cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-400 hover:text-white"
+                size={20}
+              />
+            </a>
+
+            <a href={getLink.twit} target="_blank" rel="noopener noreferrer">
+              <FaTwitter
+                className="cursor-pointer ease-in duration-300 hover:shadow-gray-400 hover:text-white"
+                size={20}
+              />
+            </a>
+
+            <a href={getLink.ig} target="_blank" rel="noopener noreferrer">
+              <FaInstagram
+                className="cursor-pointer ease-in duration-300 hover:shadow-gray-400 hover:text-white"
+                size={20}
+              />
+            </a>
+
+            <a href={getLink.linkedl} target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn
+                className="cursor-pointer ease-in duration-300 hover:shadow-gray-400 hover:text-white"
+                size={20}
+              />
+            </a>
           </div>
         </div>
       </div>

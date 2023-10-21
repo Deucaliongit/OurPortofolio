@@ -10,10 +10,11 @@ import { BsPerson } from "react-icons/bs";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
+
   const handleNav = () => {
     setNav(!nav);
-    console.log(nav);
   };
+
   return (
     <div>
       <AiOutlineMenu

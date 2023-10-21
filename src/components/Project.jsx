@@ -13,10 +13,8 @@ const Project = () => {
           Projects
         </h1>
         <p className="text-center py-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex autem
-          odio officiis dolorem aliquid! Odit, blanditiis enim omnis error est
-          placeat. Ipsam amet exercitationem, consequatur distinctio totam at
-          quos odio?
+          Several projects that I have worked on, both personal and client
+          projects
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
           <Projectitem
