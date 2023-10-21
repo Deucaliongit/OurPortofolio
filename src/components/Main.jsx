@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { getLink } from "../utils/Index";
-import bg1 from "../assets/img/Bg2.webp";
+import bg1 from "../assets/img/Bg2new.webp";
 import { TypeAnimation } from "react-type-animation";
 import {
   FaTwitter,
