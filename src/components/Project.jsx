@@ -4,6 +4,7 @@ import project1 from "../assets/img/project1.png";
 import project2 from "../assets/img/project2.png";
 import project3 from "../assets/img/project3.png";
 import project4 from "../assets/img/project4.png";
+import project5 from "../assets/img/project5.png";
 
 const Project = () => {
   return (
@@ -36,6 +37,11 @@ const Project = () => {
             img={project4}
             title="UI Personal Project"
             link="https://www.instagram.com/p/CgvwbA8P4z1/"
+          />
+          <Projectitem
+            img={project5}
+            title="Weather Apps"
+            link="https://weather.rifapp.site/"
           />
         </div>
       </div>
