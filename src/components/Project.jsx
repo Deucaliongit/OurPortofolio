@@ -5,6 +5,7 @@ import project2 from "../assets/img/project2.png";
 import project3 from "../assets/img/project3.png";
 import project4 from "../assets/img/project4.png";
 import project5 from "../assets/img/project5.png";
+import project6 from "../assets/img/project6.png";
 
 const Project = () => {
   return (
@@ -27,21 +28,31 @@ const Project = () => {
             img={project2}
             title="Movie Project API ( personal)"
             link="https://web-film-one.vercel.app/"
+            tools="ReactJs+TMDB API"
           />
           <Projectitem
             img={project3}
             title="Client Landing Page"
             link="https://webkts.000webhostapp.com/"
+            tools="CI4+Boostrap+Template"
           />
           <Projectitem
             img={project4}
             title="UI Personal Project"
             link="https://www.instagram.com/p/CgvwbA8P4z1/"
+            tools="Figma , Photoshop"
           />
           <Projectitem
             img={project5}
             title="Weather Apps"
             link="https://weather.rifapp.site/"
+            tools="React Vite Weather API"
+          />
+          <Projectitem
+            img={project6}
+            title="Clone Netflix"
+            link="https://movflix.rifapp.site/"
+            tools="React Vite + TMDB API + Firebase"
           />
         </div>
       </div>
