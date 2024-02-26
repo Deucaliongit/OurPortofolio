@@ -3,6 +3,7 @@ export const getLink = {
   twit: "/",
   ig: "https://www.instagram.com/design_pinggiran/",
   linkedl: "https://www.linkedin.com/in/ilham-rifaic/",
+  whatsapp: "",
 };
 
 export const dataWork = [
@@ -11,7 +12,7 @@ export const dataWork = [
     title: "IT Development",
     duration: "1 Years - Current",
     details:
-      "I work in the healthcare sector with the position of IT Development at PT Jakarta Kyoai Medical Center, a role I started in 2022 and continue to hold. I have undertaken various responsibilities, including website maintenance, server management, and email administration. Additionally, I have been in charge of liaising with vendors for the development of an ERP application for our company. I have also been involved in creating workflow processes, data collection, and application UI design. On another note, I have taken on the task of developing the company's English version landing page.",
+      "Since 2022, I've managed IT development at PT Jakarta Kyoai Medical Center. My duties include website maintenance, server management, and email administration. I've also coordinated with vendors for our ERP application's development. Additionally, I've crafted workflow processes, collected data, and designed application UI. I've also developed the company's English landing page..",
   },
   {
     year: 2020,
