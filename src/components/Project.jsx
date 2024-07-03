@@ -6,6 +6,8 @@ import project3 from "../assets/img/project3.png";
 import project4 from "../assets/img/project4.png";
 import project5 from "../assets/img/project5.png";
 import project6 from "../assets/img/project6.png";
+import project7 from "../assets/img/project7.png";
+import project8 from "../assets/img/project8.png";
 
 const Project = () => {
   return (
@@ -53,6 +55,19 @@ const Project = () => {
             title="Clone Netflix"
             link="https://movflix.rifapp.site/"
             tools="React Vite + TMDB API + Firebase"
+          />
+          <Projectitem
+            img={project7}
+            title="Hotel Web Apps + Admin"
+            link="https://griyamutiaraserayusyariah.com/"
+            tools="Laravel + Tailwind"
+          />
+
+          <Projectitem
+            img={project8}
+            title="Fashin Store"
+            link="https://sherinstore.rifapp.site/"
+            tools="React Vite "
           />
         </div>
       </div>
