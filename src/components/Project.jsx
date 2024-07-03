@@ -62,7 +62,6 @@ const Project = () => {
             link="https://griyamutiaraserayusyariah.com/"
             tools="Laravel + Tailwind"
           />
-
           <Projectitem
             img={project8}
             title="Fashin Store"
